@@ -22,6 +22,7 @@ app.controller('PersonListController', function ($scope, ContactService) {
 
 });
 
+//creating the first  own service
 app.service('ContactService', function () {
 
 	return {
